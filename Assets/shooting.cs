@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class weapon : MonoBehaviour{
+public class shooting : MonoBehaviour{
     
-    public float musicalNoteSpeed = 4f;
     public Transform firePoint;
     public GameObject musicNotePrefab;
+
+    public float musicalNoteSpeed = 4f;
 
     // Update is called once per frame
     void Update(){
