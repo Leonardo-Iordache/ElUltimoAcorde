@@ -5,26 +5,35 @@ using UnityEngine;
 public class character_movement : MonoBehaviour{
     // Start is called before the first frame update
 
-    [SerializeField] private float playerSpeed = 2.0f;
+    public float playerSpeed = 2.0f;
 
-    private Rigidbody2D rb;
-    void Start(){
-        rb = GetComponent<Rigidbody2D>();
-        if(rb == null)
-            Debug.LogError("Player is missing a Rigidbody2D component");
+    Vector2 movement;
+    Vector2 mousePos;
+    public Rigidbody2D player_rb;
+    public GameObject firePoint;
+    public Camera cam;
+
+    void Start() {
+        firePoint = GameObject.Find("firePoint");    
     }
 
     // Update is called once per frame
     void Update(){
-        MovePlayer();
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
+
+        mousePos = cam.ScreenToWorldPoint(Input.mousePosition); 
     }
 
+    void FixedUpdate() {
+        player_rb.MovePosition(player_rb.position + movement * playerSpeed * Time.fixedDeltaTime);
+        Vector2 firePoint_Direction = mousePos - player_rb.position;
+        float angle = Mathf.Atan2(firePoint_Direction.y, firePoint_Direction.x) * Mathf.Rad2Deg - 90f;
 
-    void MovePlayer(){
-        var horizontalInput = Input.GetAxisRaw("Horizontal");
-        var verticalInput = Input.GetAxisRaw("Vertical");
-
-        rb.velocity = new Vector2(horizontalInput * playerSpeed, rb.velocity.y);
-        rb.velocity = new Vector2(rb.velocity.x, verticalInput * playerSpeed);
-    }
+        firePoint.transform.rotation = Quaternion.Euler(0f, 0f, angle);
+    }    
 }
+
+
+
+
