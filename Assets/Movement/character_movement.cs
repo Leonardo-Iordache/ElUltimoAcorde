@@ -32,6 +32,8 @@ public class character_movement : MonoBehaviour{
         AnimateMovement();
     }
 
+    //comentario de prueba
+
     void FixedUpdate() {
         player_rb.MovePosition(player_rb.position + movement * playerSpeed * Time.fixedDeltaTime);
         
