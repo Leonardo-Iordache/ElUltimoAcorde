@@ -29,7 +29,7 @@ public class character_movement : MonoBehaviour{
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
 
         updateDireccion();
-        AnimateMovement(); 
+        AnimateMovement();
     }
 
     void FixedUpdate() {
