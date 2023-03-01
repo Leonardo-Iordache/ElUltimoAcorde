@@ -15,8 +15,6 @@ public class character_movement : MonoBehaviour{
 
     [SerializeField] private Animator animator;
 
-    private int direccion = 2;
-
     void Start() {
         firePoint = GameObject.Find("firePoint");    
     }
@@ -26,10 +24,11 @@ public class character_movement : MonoBehaviour{
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
+
+
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
 
         updateDireccion();
-        AnimateMovement();
     }
 
     //comentario de prueba
@@ -54,7 +53,7 @@ public class character_movement : MonoBehaviour{
     void Flip(){
         facingRight = !facingRight;
         
-        transform.Rotate(0f, 180f, 0f);
+        //transform.Rotate(0f, 180f, 0f);
 
         /*Vector3 theScale = transform.localScale;
         theScale.x *= -1;
@@ -63,17 +62,21 @@ public class character_movement : MonoBehaviour{
     }
 
     void updateDireccion(){
-        if (Input.GetKeyDown(KeyCode.W)){ direccion = 0; }
-        else if (Input.GetKeyDown(KeyCode.D)){ direccion = 1; }
-        else if (Input.GetKeyDown(KeyCode.S)){ direccion = 2; }
-        else if (Input.GetKeyDown(KeyCode.A)){ direccion = 1; }
+        if( movement != Vector2.zero ){
+            animator.SetFloat("dirx", movement.x);
+            animator.SetFloat("diry", movement.y);
+            animator.Play("caminar");
+        } else {
+            animator.Play("quieto");
+        }
+        
+        /*if( movement != Vector2.zero ){
+            animator.Play("quieto");
+        } else {
+            animator.Play("caminar");
+        }*/
     }
 
-    void AnimateMovement(){
-        animator.SetInteger("direccion", direccion);
-        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.A)){ animator.SetBool("se_mueve", true); }
-        else if (Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.S) || Input.GetKeyUp(KeyCode.A)){ animator.SetBool("se_mueve", false); }
-    }
 
 }
 
