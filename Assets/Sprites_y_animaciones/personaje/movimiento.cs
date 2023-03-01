@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class character_movement : MonoBehaviour{
-    // Start is called before the first frame update
-
+public class movimiento : MonoBehaviour
+{
     public float playerSpeed = 2.0f;
     private bool facingRight = true;
     Vector2 movement;
@@ -15,8 +14,6 @@ public class character_movement : MonoBehaviour{
 
     [SerializeField] private Animator animator;
 
-    private int direccion = 2;
-
     void Start() {
         firePoint = GameObject.Find("firePoint");    
     }
@@ -26,13 +23,10 @@ public class character_movement : MonoBehaviour{
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
-        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+        mousePos = cam.ScreenToWorldPoint(Input.mousePosition); 
 
-        updateDireccion();
         AnimateMovement();
     }
-
-    //comentario de prueba
 
     void FixedUpdate() {
         player_rb.MovePosition(player_rb.position + movement * playerSpeed * Time.fixedDeltaTime);
@@ -62,21 +56,15 @@ public class character_movement : MonoBehaviour{
         */
     }
 
-    void updateDireccion(){
-        if (Input.GetKeyDown(KeyCode.W)){ direccion = 0; }
-        else if (Input.GetKeyDown(KeyCode.D)){ direccion = 1; }
-        else if (Input.GetKeyDown(KeyCode.S)){ direccion = 2; }
-        else if (Input.GetKeyDown(KeyCode.A)){ direccion = 1; }
-    }
-
+    //animacion del movimiento
     void AnimateMovement(){
-        animator.SetInteger("direccion", direccion);
-        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.A)){ animator.SetBool("se_mueve", true); }
-        else if (Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.S) || Input.GetKeyUp(KeyCode.A)){ animator.SetBool("se_mueve", false); }
+        //gestionar movimiento hacia abajo
+        if (Input.GetKeyDown(KeyCode.S)) {
+            animator.SetInteger("direccion", 2);
+            animator.SetBool("se_mueve", true);
+        } else if (Input.GetKeyUp(KeyCode.S)) {
+            animator.SetBool("se_mueve", false);
+        }
     }
 
 }
-
-
-
-
