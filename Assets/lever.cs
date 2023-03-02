@@ -27,7 +27,6 @@ public class lever : MonoBehaviour{
    
 
     void OpenDoor(){
-        Debug.Log("hola");
         doorPos = new Vector3(door.transform.position.x, door.transform.position.y + 0.5f);
         door.transform.position = Vector3.MoveTowards(door.transform.position, doorPos, 0.5f);
         isClosed = false;
