@@ -13,6 +13,8 @@ public class character_movement : MonoBehaviour{
     public GameObject firePoint;
     public Camera cam;
 
+    [SerializeField] private Animator animator;
+
     void Start() {
         firePoint = GameObject.Find("firePoint");    
     }
@@ -22,8 +24,14 @@ public class character_movement : MonoBehaviour{
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
-        mousePos = cam.ScreenToWorldPoint(Input.mousePosition); 
+
+
+        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+
+        updateDireccion();
     }
+
+    //comentario de prueba
 
     void FixedUpdate() {
         player_rb.MovePosition(player_rb.position + movement * playerSpeed * Time.fixedDeltaTime);
@@ -45,13 +53,31 @@ public class character_movement : MonoBehaviour{
     void Flip(){
         facingRight = !facingRight;
         
-        transform.Rotate(0f, 180f, 0f);
+        //transform.Rotate(0f, 180f, 0f);
 
         /*Vector3 theScale = transform.localScale;
         theScale.x *= -1;
         transform.localScale = theScale;
         */
     }
+
+    void updateDireccion(){
+        if( movement != Vector2.zero ){
+            animator.SetFloat("dirx", movement.x);
+            animator.SetFloat("diry", movement.y);
+            animator.Play("caminar");
+        } else {
+            animator.Play("quieto");
+        }
+        
+        /*if( movement != Vector2.zero ){
+            animator.Play("quieto");
+        } else {
+            animator.Play("caminar");
+        }*/
+    }
+
+
 }
 
 
