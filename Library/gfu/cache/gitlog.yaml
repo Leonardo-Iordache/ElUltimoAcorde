@@ -1,0 +1,1154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2023-03-05T01:08:18.835+01:00
+  initializedAtString: 2023-03-04T20:51:13.183+01:00
+  log:
+  - commitID: a22b9b6224fddfdf724044c5be24693e42c0c9d9
+    mergeA: dfa3fa77c20d1574a163bfbe4322505054560a62
+    mergeB: 1dc9f4587c08a59b09ac12d549c3f4d0d4f43461
+    authorName: AlvaroRadajczykGII
+    authorEmail: 92734443+AlvaroRadajczykGII@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Merge pull request #2 from AlvaroRadajczykGII/pruebas_sprites
+    description: arreglo bugs y simplificacion animacion personaje
+    timeString: 2023-03-01T23:23:58.000+01:00
+    commitTimeString: 2023-03-01T23:23:58.000+01:00
+    changes: []
+  - commitID: 1dc9f4587c08a59b09ac12d549c3f4d0d4f43461
+    mergeA: 
+    mergeB: 
+    authorName: Alvaro R
+    authorEmail: alvaro.radajczyk@edu.uah.es
+    commitEmail: alvaro.radajczyk@edu.uah.es
+    commitName: Alvaro R
+    summary: arreglo bugs y simplificacion animacion personaje
+    description: 
+    timeString: 2023-03-01T23:16:41.000+01:00
+    commitTimeString: 2023-03-01T23:16:41.000+01:00
+    changes:
+    - path: Assets\Movement\character_movement.cs
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Movement\character_movement.cs
+      projectPath: Assets\Movement\character_movement.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Sprites_y_animaciones\personaje\player.controller
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Sprites_y_animaciones\personaje\player.controller
+      projectPath: Assets\Sprites_y_animaciones\personaje\player.controller
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UserSettings\Layouts\default-2021.dwlt
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\UserSettings\Layouts\default-2021.dwlt
+      projectPath: UserSettings\Layouts\default-2021.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: dfa3fa77c20d1574a163bfbe4322505054560a62
+    mergeA: 87158e3cd5fff58d353610c08c2d9c555c8be550
+    mergeB: c858da57be557c4a178f9b199b58bd6e39b0ba68
+    authorName: AlvaroRadajczykGII
+    authorEmail: 92734443+AlvaroRadajczykGII@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Merge pull request #1 from AlvaroRadajczykGII/sprites
+    description: Sprites
+    timeString: 2023-03-01T21:51:51.000+01:00
+    commitTimeString: 2023-03-01T21:51:51.000+01:00
+    changes: []
+  - commitID: c858da57be557c4a178f9b199b58bd6e39b0ba68
+    mergeA: 
+    mergeB: 
+    authorName: Alvaro R
+    authorEmail: alvaro.radajczyk@edu.uah.es
+    commitEmail: alvaro.radajczyk@edu.uah.es
+    commitName: Alvaro R
+    summary: comentario script moverse
+    description: 
+    timeString: 2023-03-01T21:48:52.000+01:00
+    commitTimeString: 2023-03-01T21:48:52.000+01:00
+    changes:
+    - path: Assets\Movement\character_movement.cs
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Movement\character_movement.cs
+      projectPath: Assets\Movement\character_movement.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 9106dd96a3e4446acbcf17ab0ae95ecb0bb255eb
+    mergeA: 
+    mergeB: 
+    authorName: Alvaro R
+    authorEmail: alvaro.radajczyk@edu.uah.es
+    commitEmail: alvaro.radajczyk@edu.uah.es
+    commitName: Alvaro R
+    summary: pruebas
+    description: 
+    timeString: 2023-03-01T21:18:35.000+01:00
+    commitTimeString: 2023-03-01T21:18:35.000+01:00
+    changes:
+    - path: Assets\Movement\character_movement.cs
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Movement\character_movement.cs
+      projectPath: Assets\Movement\character_movement.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 40465b4521e47129dd7ad780cac0e4572de11232
+    mergeA: 
+    mergeB: 
+    authorName: Alvaro R
+    authorEmail: alvaro.radajczyk@edu.uah.es
+    commitEmail: alvaro.radajczyk@edu.uah.es
+    commitName: Alvaro R
+    summary: primera animacion aun tiene bugs
+    description: 
+    timeString: 2023-03-01T19:47:22.000+01:00
+    commitTimeString: 2023-03-01T19:47:22.000+01:00
+    changes:
+    - path: Assets\Movement\character_movement.cs
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Movement\character_movement.cs
+      projectPath: Assets\Movement\character_movement.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Sprites_y_animaciones.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Sprites_y_animaciones.meta
+      projectPath: Assets\Sprites_y_animaciones.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites_y_animaciones\npcs.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Sprites_y_animaciones\npcs.meta
+      projectPath: Assets\Sprites_y_animaciones\npcs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites_y_animaciones\personaje.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Sprites_y_animaciones\personaje.meta
+      projectPath: Assets\Sprites_y_animaciones\personaje.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites_y_animaciones\personaje\New Animation.anim
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Sprites_y_animaciones\personaje\New
+        Animation.anim
+      projectPath: Assets\Sprites_y_animaciones\personaje\New Animation.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites_y_animaciones\personaje\New Animation.anim.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Sprites_y_animaciones\personaje\New
+        Animation.anim.meta
+      projectPath: Assets\Sprites_y_animaciones\personaje\New Animation.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites_y_animaciones\personaje\abajo_caminar.anim
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Sprites_y_animaciones\personaje\abajo_caminar.anim
+      projectPath: Assets\Sprites_y_animaciones\personaje\abajo_caminar.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites_y_animaciones\personaje\abajo_caminar.anim.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Sprites_y_animaciones\personaje\abajo_caminar.anim.meta
+      projectPath: Assets\Sprites_y_animaciones\personaje\abajo_caminar.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites_y_animaciones\personaje\abajo_quieto.anim
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Sprites_y_animaciones\personaje\abajo_quieto.anim
+      projectPath: Assets\Sprites_y_animaciones\personaje\abajo_quieto.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites_y_animaciones\personaje\abajo_quieto.anim.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Sprites_y_animaciones\personaje\abajo_quieto.anim.meta
+      projectPath: Assets\Sprites_y_animaciones\personaje\abajo_quieto.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites_y_animaciones\personaje\arriba_caminando.anim
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Sprites_y_animaciones\personaje\arriba_caminando.anim
+      projectPath: Assets\Sprites_y_animaciones\personaje\arriba_caminando.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites_y_animaciones\personaje\arriba_caminando.anim.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Sprites_y_animaciones\personaje\arriba_caminando.anim.meta
+      projectPath: Assets\Sprites_y_animaciones\personaje\arriba_caminando.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites_y_animaciones\personaje\arriba_quieto.anim
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Sprites_y_animaciones\personaje\arriba_quieto.anim
+      projectPath: Assets\Sprites_y_animaciones\personaje\arriba_quieto.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites_y_animaciones\personaje\arriba_quieto.anim.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Sprites_y_animaciones\personaje\arriba_quieto.anim.meta
+      projectPath: Assets\Sprites_y_animaciones\personaje\arriba_quieto.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites_y_animaciones\personaje\caballero.png
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Sprites_y_animaciones\personaje\caballero.png
+      projectPath: Assets\Sprites_y_animaciones\personaje\caballero.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites_y_animaciones\personaje\caballero.png.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Sprites_y_animaciones\personaje\caballero.png.meta
+      projectPath: Assets\Sprites_y_animaciones\personaje\caballero.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites_y_animaciones\personaje\derecha_caminando.anim
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Sprites_y_animaciones\personaje\derecha_caminando.anim
+      projectPath: Assets\Sprites_y_animaciones\personaje\derecha_caminando.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites_y_animaciones\personaje\derecha_caminando.anim.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Sprites_y_animaciones\personaje\derecha_caminando.anim.meta
+      projectPath: Assets\Sprites_y_animaciones\personaje\derecha_caminando.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites_y_animaciones\personaje\derecha_quieto.anim
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Sprites_y_animaciones\personaje\derecha_quieto.anim
+      projectPath: Assets\Sprites_y_animaciones\personaje\derecha_quieto.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites_y_animaciones\personaje\derecha_quieto.anim.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Sprites_y_animaciones\personaje\derecha_quieto.anim.meta
+      projectPath: Assets\Sprites_y_animaciones\personaje\derecha_quieto.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites_y_animaciones\personaje\izquierda_caminando.anim
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Sprites_y_animaciones\personaje\izquierda_caminando.anim
+      projectPath: Assets\Sprites_y_animaciones\personaje\izquierda_caminando.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites_y_animaciones\personaje\izquierda_caminando.anim.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Sprites_y_animaciones\personaje\izquierda_caminando.anim.meta
+      projectPath: Assets\Sprites_y_animaciones\personaje\izquierda_caminando.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites_y_animaciones\personaje\izquierda_quieto.anim
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Sprites_y_animaciones\personaje\izquierda_quieto.anim
+      projectPath: Assets\Sprites_y_animaciones\personaje\izquierda_quieto.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites_y_animaciones\personaje\izquierda_quieto.anim.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Sprites_y_animaciones\personaje\izquierda_quieto.anim.meta
+      projectPath: Assets\Sprites_y_animaciones\personaje\izquierda_quieto.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites_y_animaciones\personaje\movimiento.cs
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Sprites_y_animaciones\personaje\movimiento.cs
+      projectPath: Assets\Sprites_y_animaciones\personaje\movimiento.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites_y_animaciones\personaje\movimiento.cs.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Sprites_y_animaciones\personaje\movimiento.cs.meta
+      projectPath: Assets\Sprites_y_animaciones\personaje\movimiento.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites_y_animaciones\personaje\player.controller
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Sprites_y_animaciones\personaje\player.controller
+      projectPath: Assets\Sprites_y_animaciones\personaje\player.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites_y_animaciones\personaje\player.controller.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Sprites_y_animaciones\personaje\player.controller.meta
+      projectPath: Assets\Sprites_y_animaciones\personaje\player.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 87158e3cd5fff58d353610c08c2d9c555c8be550
+    mergeA: 
+    mergeB: 
+    authorName: Leonardo
+    authorEmail: leonardo.iordache@edu.uah.es
+    commitEmail: leonardo.iordache@edu.uah.es
+    commitName: Leonardo
+    summary: Dash mechanic added
+    description: 
+    timeString: 2023-02-28T20:26:28.000+01:00
+    commitTimeString: 2023-02-28T20:26:28.000+01:00
+    changes:
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\dash.cs
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\dash.cs
+      projectPath: Assets\dash.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\dash.cs.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\dash.cs.meta
+      projectPath: Assets\dash.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 03782b93bf908db52dedd315f9a90ce239d2b259
+    mergeA: 
+    mergeB: 
+    authorName: Leonardo
+    authorEmail: leonardo.iordache@edu.uah.es
+    commitEmail: leonardo.iordache@edu.uah.es
+    commitName: Leonardo
+    summary: '"Completed" shootting system.'
+    description: 
+    timeString: 2023-02-28T19:56:40.000+01:00
+    commitTimeString: 2023-02-28T19:56:40.000+01:00
+    changes:
+    - path: Assets\Movement\character_movement.cs
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Movement\character_movement.cs
+      projectPath: Assets\Movement\character_movement.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\do_broken_music_note.controller
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\do_broken_music_note.controller
+      projectPath: Assets\do_broken_music_note.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\do_broken_music_note.controller.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\do_broken_music_note.controller.meta
+      projectPath: Assets\do_broken_music_note.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\do_broken_music_note.png
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\do_broken_music_note.png
+      projectPath: Assets\do_broken_music_note.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\do_broken_music_note.png.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\do_broken_music_note.png.meta
+      projectPath: Assets\do_broken_music_note.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\do_broken_music_note.prefab
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\do_broken_music_note.prefab
+      projectPath: Assets\do_broken_music_note.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\do_broken_music_note.prefab.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\do_broken_music_note.prefab.meta
+      projectPath: Assets\do_broken_music_note.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\do_music_note.prefab
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\do_music_note.prefab
+      projectPath: Assets\do_music_note.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\notaMusical.cs
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\notaMusical.cs
+      projectPath: Assets\notaMusical.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\notaMusical.cs.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\notaMusical.cs.meta
+      projectPath: Assets\notaMusical.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\shooting.cs
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\shooting.cs
+      projectPath: Assets\shooting.cs
+      originalPath: Assets\weapon.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\shooting.cs.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\shooting.cs.meta
+      projectPath: Assets\shooting.cs.meta
+      originalPath: Assets\weapon.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+  - commitID: 39c5fd25349440d5008e739d7f26e6a666a81a25
+    mergeA: 
+    mergeB: 
+    authorName: Leonardo
+    authorEmail: leonardo.iordache@edu.uah.es
+    commitEmail: leonardo.iordache@edu.uah.es
+    commitName: Leonardo
+    summary: Added basic shooting system
+    description: 
+    timeString: 2023-02-28T17:14:01.000+01:00
+    commitTimeString: 2023-02-28T17:14:01.000+01:00
+    changes:
+    - path: Assets\Movement\character_movement.cs
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Movement\character_movement.cs
+      projectPath: Assets\Movement\character_movement.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\do_music_note.png
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\do_music_note.png
+      projectPath: Assets\do_music_note.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\do_music_note.png.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\do_music_note.png.meta
+      projectPath: Assets\do_music_note.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\do_music_note.prefab
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\do_music_note.prefab
+      projectPath: Assets\do_music_note.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\do_music_note.prefab.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\do_music_note.prefab.meta
+      projectPath: Assets\do_music_note.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\musical_note.cs
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\musical_note.cs
+      projectPath: Assets\musical_note.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\musical_note.cs.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\musical_note.cs.meta
+      projectPath: Assets\musical_note.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\weapon.cs
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\weapon.cs
+      projectPath: Assets\weapon.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\weapon.cs.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\weapon.cs.meta
+      projectPath: Assets\weapon.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\InputManager.asset
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\ProjectSettings\InputManager.asset
+      projectPath: ProjectSettings\InputManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\TimelineSettings.asset
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\ProjectSettings\TimelineSettings.asset
+      projectPath: ProjectSettings\TimelineSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UserSettings\Layouts\default-2021.dwlt
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\UserSettings\Layouts\default-2021.dwlt
+      projectPath: UserSettings\Layouts\default-2021.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UserSettings\Search.settings
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\UserSettings\Search.settings
+      projectPath: UserSettings\Search.settings
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 3d27fbec6bca54b9e5d29252dc3a37ec9a26e3b8
+    mergeA: 
+    mergeB: 
+    authorName: Leonardo
+    authorEmail: leonardo.iordache@edu.uah.es
+    commitEmail: leonardo.iordache@edu.uah.es
+    commitName: Leonardo
+    summary: Camera following + player movement
+    description: Character movement, camera following. First provisional map added.
+    timeString: 2023-02-27T23:57:14.000+01:00
+    commitTimeString: 2023-02-27T23:57:14.000+01:00
+    changes:
+    - path: .vscode\settings.json
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\.vscode\settings.json
+      projectPath: .vscode\settings.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Character.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Character.meta
+      projectPath: Assets\Character.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Character\main_character.png
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Character\main_character.png
+      projectPath: Assets\Character\main_character.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Character\main_character.png.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Character\main_character.png.meta
+      projectPath: Assets\Character\main_character.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Movement.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Movement.meta
+      projectPath: Assets\Movement.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Movement\character_movement.cs
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Movement\character_movement.cs
+      projectPath: Assets\Movement\character_movement.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Movement\character_movement.cs.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Movement\character_movement.cs.meta
+      projectPath: Assets\Movement\character_movement.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins.meta
+      projectPath: Assets\Plugins.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub.meta
+      projectPath: Assets\Plugins\GitHub.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor.meta
+      projectPath: Assets\Plugins\GitHub\Editor.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\credits.txt
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\eula.txt
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\libsfw.so
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\x64.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\x86.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Scenes.meta
+      projectPath: Assets\Scenes.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Scenes\SampleScene.unity.meta
+      projectPath: Assets\Scenes\SampleScene.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SeekPng.com_mandalorian-png_3149941.png
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\SeekPng.com_mandalorian-png_3149941.png
+      projectPath: Assets\SeekPng.com_mandalorian-png_3149941.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SeekPng.com_mandalorian-png_3149941.png.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\SeekPng.com_mandalorian-png_3149941.png.meta
+      projectPath: Assets\SeekPng.com_mandalorian-png_3149941.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Tiles.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Tiles.meta
+      projectPath: Assets\Tiles.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Tiles\fungi_map.prefab
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Tiles\fungi_map.prefab
+      projectPath: Assets\Tiles\fungi_map.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Tiles\fungi_map.prefab.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\Tiles\fungi_map.prefab.meta
+      projectPath: Assets\Tiles\fungi_map.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Tiles\\\xEDndice.asset"
+      fullPath: "C:\\Users\\carre\\Downloads\\ElUltimoAcorde\\ElUltimoAcorde\\Assets\\Tiles\\\xEDndice.asset"
+      projectPath: "Assets\\Tiles\\\xEDndice.asset"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Tiles\\\xEDndice.asset.meta"
+      fullPath: "C:\\Users\\carre\\Downloads\\ElUltimoAcorde\\ElUltimoAcorde\\Assets\\Tiles\\\xEDndice.asset.meta"
+      projectPath: "Assets\\Tiles\\\xEDndice.asset.meta"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Tiles\\\xEDndice.png"
+      fullPath: "C:\\Users\\carre\\Downloads\\ElUltimoAcorde\\ElUltimoAcorde\\Assets\\Tiles\\\xEDndice.png"
+      projectPath: "Assets\\Tiles\\\xEDndice.png"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Tiles\\\xEDndice.png.meta"
+      fullPath: "C:\\Users\\carre\\Downloads\\ElUltimoAcorde\\ElUltimoAcorde\\Assets\\Tiles\\\xEDndice.png.meta"
+      projectPath: "Assets\\Tiles\\\xEDndice.png.meta"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\mapa_provisional.png
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\mapa_provisional.png
+      projectPath: Assets\mapa_provisional.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\mapa_provisional.png.meta
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\mapa_provisional.png.meta
+      projectPath: Assets\mapa_provisional.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Packages\manifest.json
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Packages\manifest.json
+      projectPath: Packages\manifest.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Packages\packages-lock.json
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Packages\packages-lock.json
+      projectPath: Packages\packages-lock.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\AudioManager.asset
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\ProjectSettings\AudioManager.asset
+      projectPath: ProjectSettings\AudioManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ClusterInputManager.asset
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\ProjectSettings\ClusterInputManager.asset
+      projectPath: ProjectSettings\ClusterInputManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\DynamicsManager.asset
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\ProjectSettings\DynamicsManager.asset
+      projectPath: ProjectSettings\DynamicsManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorSettings.asset
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\ProjectSettings\EditorSettings.asset
+      projectPath: ProjectSettings\EditorSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\GraphicsSettings.asset
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\ProjectSettings\GraphicsSettings.asset
+      projectPath: ProjectSettings\GraphicsSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\InputManager.asset
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\ProjectSettings\InputManager.asset
+      projectPath: ProjectSettings\InputManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\MemorySettings.asset
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\ProjectSettings\MemorySettings.asset
+      projectPath: ProjectSettings\MemorySettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\NavMeshAreas.asset
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\ProjectSettings\NavMeshAreas.asset
+      projectPath: ProjectSettings\NavMeshAreas.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\NetworkManager.asset
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\ProjectSettings\NetworkManager.asset
+      projectPath: ProjectSettings\NetworkManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\PackageManagerSettings.asset
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\ProjectSettings\PackageManagerSettings.asset
+      projectPath: ProjectSettings\PackageManagerSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\Physics2DSettings.asset
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\ProjectSettings\Physics2DSettings.asset
+      projectPath: ProjectSettings\Physics2DSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\PresetManager.asset
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\ProjectSettings\PresetManager.asset
+      projectPath: ProjectSettings\PresetManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectVersion.txt
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\ProjectSettings\ProjectVersion.txt
+      projectPath: ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\QualitySettings.asset
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\ProjectSettings\QualitySettings.asset
+      projectPath: ProjectSettings\QualitySettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\SceneTemplateSettings.json
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\ProjectSettings\SceneTemplateSettings.json
+      projectPath: ProjectSettings\SceneTemplateSettings.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\TagManager.asset
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\TimeManager.asset
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\ProjectSettings\TimeManager.asset
+      projectPath: ProjectSettings\TimeManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\UnityConnectSettings.asset
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\ProjectSettings\UnityConnectSettings.asset
+      projectPath: ProjectSettings\UnityConnectSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\VFXManager.asset
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\ProjectSettings\VFXManager.asset
+      projectPath: ProjectSettings\VFXManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\VersionControlSettings.asset
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\ProjectSettings\VersionControlSettings.asset
+      projectPath: ProjectSettings\VersionControlSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\XRSettings.asset
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\ProjectSettings\XRSettings.asset
+      projectPath: ProjectSettings\XRSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\boot.config
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\ProjectSettings\boot.config
+      projectPath: ProjectSettings\boot.config
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UserSettings\EditorUserSettings.asset
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\UserSettings\EditorUserSettings.asset
+      projectPath: UserSettings\EditorUserSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UserSettings\Layouts\default-2021.dwlt
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\UserSettings\Layouts\default-2021.dwlt
+      projectPath: UserSettings\Layouts\default-2021.dwlt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: a826e340d0998165751a09ec43a616e3491fc8f7
+    mergeA: 
+    mergeB: 
+    authorName: Leonardo
+    authorEmail: leonardo.iordache@edu.uah.es
+    commitEmail: leonardo.iordache@edu.uah.es
+    commitName: Leonardo
+    summary: Initial commit
+    description: 
+    timeString: 2023-02-27T20:51:19.000+01:00
+    commitTimeString: 2023-02-27T20:51:19.000+01:00
+    changes:
+    - path: .gitattributes
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\.gitattributes
+      projectPath: .gitattributes
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .gitignore
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\.gitignore
+      fullPath: C:\Users\carre\Downloads\ElUltimoAcorde\ElUltimoAcorde\Assets\.gitignore
+      projectPath: Assets\.gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
